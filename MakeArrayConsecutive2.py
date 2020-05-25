@@ -5,5 +5,5 @@ def makeArrayConsecutive2(statues):
         if sorted_list[i+1] == sorted_list[i]+1:
             continue
         else:
-            count += (sorted_list[i+1] - sorted_list[i]) - 1
+            count += ((sorted_list[i+1] - sorted_list[i]) - 1)
     return count
