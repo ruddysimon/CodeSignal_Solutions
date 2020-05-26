@@ -7,4 +7,4 @@ BEGIN
     FROM mischief
     ORDER BY weekday, FIELD(author,"Huey","Dewey","Louie"),mischief_date, title;
 	
-END
+ENDg
